@@ -57,7 +57,10 @@ export default function App() {
                   <input className="tarefa_conteudo" disabled value={tarefa} />
                   <button
                     className="btn btn_excluir"
-                    onClick={() => handleOneClick(index)}>Excluir </button>
+                    onClick={() => handleOneClick(index)}
+                  >
+                    Excluir{" "}
+                  </button>
                 </li>
               ))}
             </ul>
